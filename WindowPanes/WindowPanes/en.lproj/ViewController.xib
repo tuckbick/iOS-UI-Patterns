@@ -33,7 +33,7 @@
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 			</object>
 			<object class="IBUIView" id="774585933">
-				<nil key="NSNextResponder"/>
+				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">274</int>
 				<array class="NSMutableArray" key="NSSubviews">
 					<object class="IBUIScrollView" id="748547783">
@@ -41,6 +41,8 @@
 						<int key="NSvFlags">274</int>
 						<string key="NSFrameSize">{320, 548}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">3</int>
@@ -56,6 +58,8 @@
 					</object>
 				</array>
 				<string key="NSFrame">{{0, 20}, {320, 548}}</string>
+				<reference key="NSSuperview"/>
+				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="748547783"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
@@ -208,6 +212,7 @@
 						<int key="objectID">8</int>
 						<reference key="object" ref="748547783"/>
 						<reference key="parent" ref="774585933"/>
+						<string key="objectName">Pane Scroller</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">18</int>
@@ -270,13 +275,13 @@
 					<string key="className">ViewController</string>
 					<string key="superclassName">UIViewController</string>
 					<object class="NSMutableDictionary" key="outlets">
-						<string key="NS.key.0">pager</string>
+						<string key="NS.key.0">paneScroller</string>
 						<string key="NS.object.0">UIScrollView</string>
 					</object>
 					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<string key="NS.key.0">pager</string>
+						<string key="NS.key.0">paneScroller</string>
 						<object class="IBToOneOutletInfo" key="NS.object.0">
-							<string key="name">pager</string>
+							<string key="name">paneScroller</string>
 							<string key="candidateClassName">UIScrollView</string>
 						</object>
 					</object>
