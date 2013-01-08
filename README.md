@@ -1,7 +1,7 @@
 iOS-UI-Patterns
 ===============
 
-A collection of useful iOS UI Patterns. Bear in mind that these are crude renditions and hopefully I get the point across.
+A collection of useful iOS UI Patterns. Bear in mind that these are crude renditions and hopefully you get the idea.
 
 ## Window Panes ##
 
